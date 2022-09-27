@@ -50,12 +50,12 @@ namespace MyShopifyTest
             var item = webDriver.FindElement(By.XPath("/html/body/main/div[2]/div[2]/div/ul/li[1]/div/div[1]/div/h3/a"));
             item.Click();
 
-            //add to card         
-            var addToCard = webDriver.FindElement(By.ClassName("product-form__submit"));
-            addToCard.Click();
+            //add to cart         
+            var addToCart = webDriver.FindElement(By.ClassName("product-form__submit"));
+            addToCart.Click();
             Thread.Sleep(2000);
 
-            //click on view my card after 2sec because add to cart can be long operation
+            //click on view my cart after 2sec because add to cart can be long operation
             //and view mycart is not yet presented
             var wait=new WebDriverWait(webDriver, System.TimeSpan.FromSeconds(2));
             var viewMyCart = wait.Until(driver => driver.FindElement(By.Id("cart-notification-button")));

@@ -22,9 +22,9 @@ In this test I used Selenium Automation framework with C# in Chrome environment.
 ### Test 4: Cart_ThirdDiscountOffer
 - Increase Quantity to eligible for discount offer 3rd Offer
 
-### Test 5: Cart_ProductLinePriceCart()
+### Test 5: Cart_ProductLinePriceCart
 - Verify Product Price (With discount Applied)
 - Verify Line Item price and product price on checkout page
 
-### Test 6: Cart_CheckOutTotalAndDiscountPrice()
+### Test 6: Cart_CheckOutTotalAndDiscountPrice
 - Verify Total and Discount price on checkout page.

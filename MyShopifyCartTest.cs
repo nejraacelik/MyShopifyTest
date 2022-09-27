@@ -13,7 +13,7 @@ using System.Threading.Tasks;
 namespace MyShopifyTest
 {
     [TestClass]
-    public class MyShopifyCardTest:MyShopifyBaseTest
+    public class MyShopifyCartTest:MyShopifyBaseTest
     {
         [TestMethod]
         public void Cart_ItemIsInCart()
